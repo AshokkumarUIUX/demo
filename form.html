@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 40px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            padding: 25px;
+        }
+        form input{
+            width: 60%;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <form action="">
+        <label for="">name :</label>
+        <input type="text" placeholder="Name.." required >
+        <label for="">mobile :</label>
+        <input type="tel"  placeholder="Mobile.." pattern="\d{10}" >
+        <label for="">email :</label>
+        <input type="email" placeholder="Email.." required >
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html> 
